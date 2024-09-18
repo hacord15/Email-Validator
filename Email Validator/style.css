@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,25 +14,30 @@ nav{
     color: white;
     padding: 19px 12px;
 }
-ul{
+
+ul {
     display: flex;
 
 
 }
-ul li{
+
+ul li {
     list-style: none;
     padding: 0 13px;
     font-size: 13px;
 }
-ul li a{
+
+ul li a {
     color: white;
     text-decoration: none;
 
 }
-ul>li>a:hover{
-    color: rgb(225, 225, 238);
+
+ul>li>a:hover {
+    color: rgb(172, 86, 86);
 }
-footer{
+
+footer {
     font-size: 12px;
     background-color: black;
     color: white;
@@ -41,29 +48,61 @@ footer{
     align-items: center;
     /* margin-top: 12px; */
 }
-main{
+
+main {
     min-height: 89vh;
-  padding: 2px;
-    
+    padding: 2px;
+
 }
+
 .container {
     max-width: 80vw;
     margin: auto;
     padding: 15px;
-
-    
 }
-@media only screen and (max-width:600px){
-    body{
-        background-color: lightblue;
-        .container{
+.container h1{
+    padding: 12px 0;
+}
+.btn{
+      background: black;
+      color: white;
+      padding: 9px 12px;
+      border: 1px solid gray;
+      border-radius: 6px;
+}
+@media only screen and (max-width:600px) {
+    body {
+        .container {
             font-size: 12px;
         }
-        nav{
+
+        nav {
             flex-direction: column;
         }
-        .logo{
+
+        .logo {
             padding: 6px 0;
+            font-size: 12px;
         }
+        .logo img{
+            width: 16px;
+            filter: invert(1);
+        }
+        .logo span{
+            font-size: 20px;
+        }
+
     }
+}
+.logo img{
+    width: 16px;
+    filter: invert(1);
+}
+#resultCont div::first-letter{
+    text-transform: uppercase;
+}
+input{
+    min-width: 244px;
+    padding: 6px;
+    font-weight: 800;
 }
