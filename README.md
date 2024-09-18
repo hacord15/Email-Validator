@@ -4,4 +4,4 @@
 
 ### Check Live Preview Here
 
-<a href="https://hacord15.github.io/Mini_Web_Tools/" target="_blank"><img src="https://www.animatedimages.org/data/media/1096/animated-click-here-sign-and-button-image-0042.gif" /></a>
+<a href="https://hacord15.github.io/Email-Validator/" target="_blank"><img src="https://www.animatedimages.org/data/media/1096/animated-click-here-sign-and-button-image-0042.gif" /></a>
